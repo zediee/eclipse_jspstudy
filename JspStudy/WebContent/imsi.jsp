@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset="UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -13,7 +13,9 @@
 <%
 	String var1 = var2 + "Web Programming";
 %>
-����� �� : <%=var1 %> <br>
-���İ�� : <%= (3+5) %>
+출력할값 : <%=var1 %> <br>
+수식계산 : <%= (3+5) %>
+<hr>
+수식계산2: <%=(3*5)%>
 </body>
 </html>
